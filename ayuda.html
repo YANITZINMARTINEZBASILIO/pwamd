@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width">
+
+ <title>
+  Ayuda - PWA con MD
+ </title>
+
+ <meta name="theme-color" content="#fffbfe">
+ <link rel="icon" sizes="32x32" href="favicon.ico">
+ <link rel="manifest" href="site.webmanifest">
+
+ <link rel="stylesheet" href="css/estilos.css">
+ <script src="ungap/custom-elements.js"></script>
+ <script type="module" src="js/configura.js"></script>
+
+</head>
+
+<body>
+
+ <md-top-app-bar>
+
+  <h1>Ayuda</h1>
+
+  <button is="md-menu-button" slot="navigation"
+    onclick="nav.abre()"></button>
+
+ </md-top-app-bar>
+
+ <main>
+
+  <ul class="md-list">
+   <li class="md-two-line">
+    <span class="headline">
+     Título
+    </span>
+    <span class="supporting">
+     PWA con Material Design
+    </span>
+   </li>
+   <li class="md-two-line">
+    <span class="headline">
+     Descripción
+    </span>
+    <span class="supporting">
+     PWA con Material Design con lista de integrantes de MasTec'Dv y sus mejores chistes
+    </span>
+   </li>
+   <li class="md-two-line">
+    <span class="headline">
+     Autor
+    </span>
+    <span class="supporting">
+      🌱  Barrera Cortes Marisol
+      <br>
+      🌱  Martinez Basilio Yanitzin
+      <br>
+      🌱  Muñoz Amador Carmen Juana
+      <br>
+      🌾  Palomino Gómez Michelle Zoé
+      <br>
+      🌾  Tufiño González Johan Yael
+    </span>
+   </li>
+   <li class="md-two-line">
+    <span class="headline">
+     Derechos de autor
+    </span>
+    <span class="supporting">
+     &copy; 2024 | MasTec'Dv
+    </span>
+   </li>
+   <li class="md-three-line">
+    <span class="headline">
+     Este software usa la librería para PWA
+    </span>
+    <span class="supporting">
+     Esta obra de Gilberto Pacheco Gallegos está bajo una
+     <a target="_blank" rel="license noopener noreferrer"
+       href="http://creativecommons.org/licenses/by/4.0/">
+      Licencia Creative Commons Atribución 4.0
+      Internacional</a> </span>
+   </li>
+   <li>
+    <a class="md-three-line"
+      target="_blank" rel=”noopener noreferrer”
+      href="https://fonts.google.com/icons">
+     <span class="headline">
+      También usa Material Symbols
+     </span>
+     <span class="supporting">
+      Desarrollada por Google bajo licencia Apache 2.0
+     </span>
+    </a>
+   </li>
+  </ul>
+
+ </main>
+
+ <nav-drw id="nav"></nav-drw>
+
+</body>
+
+</html>
