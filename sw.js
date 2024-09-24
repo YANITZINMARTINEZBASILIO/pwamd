@@ -15,7 +15,7 @@
  * conoce como número menor y se cambia cuando se realizan
  * modificaciones menores.
  */
-const VERSION = "1.00"
+const VERSION = "1.02"
 
 /**
  * Nombre de la carpeta de caché.
@@ -40,6 +40,7 @@ const ARCHIVOS = [
  "img/icono2048.png",
  "img/maskable_icon.png",
  "img/maskable_icon_x128.png",
+
  "img/maskable_icon_x192.png",
  "img/maskable_icon_x384.png",
  "img/maskable_icon_x48.png",
