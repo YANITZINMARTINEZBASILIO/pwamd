@@ -8,7 +8,7 @@ export class NavDrw extends MdNavigationDrawer {
   */
  getHipervinculos() {
   return /* HTML */`
-   <h1>PWA con MD</h1>
+   <h1>ChisTec - PWA</h1>
 
    <a ${resaltaSiEstasEn(["/index.html", "", "/"])} href="index.html">
     <span class="material-symbols-outlined">home</span>
