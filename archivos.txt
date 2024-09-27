@@ -3,7 +3,6 @@
 "index.html",
 "navbar.html",
 "navtab.html",
-"navTabFixed.html",
 "site.webmanifest",
 "css/estilos.css",
 "css/tokens.css",
